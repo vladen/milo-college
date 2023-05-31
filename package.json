@@ -35,5 +35,14 @@
     "stylelint": "14.6.0",
     "stylelint-config-prettier": "9.0.3",
     "stylelint-config-standard": "25.0.0"
+  },
+  "dependencies": {
+    "@spectrum-css/button": "^10.1.1",
+    "@spectrum-css/checkbox": "^6.0.34",
+    "@spectrum-css/icon": "^3.0.44",
+    "@spectrum-css/page": "^5.0.28",
+    "@spectrum-css/tooltip": "^5.0.33",
+    "@spectrum-css/typography": "^5.0.19",
+    "@spectrum-css/vars": "^9.0.6"
   }
 }
