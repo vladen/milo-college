@@ -285,7 +285,7 @@ export default async function init(el) {
   // eslint-disable-next-line import/no-unresolved
   const {
     createContext, html, render, useContext, useEffect, useMemo, useState,
-  } = await import('https://esm.sh/htm@3.1.1/preact/standalone');
+  } = await import('../../deps/preact/standalone.js');
 
   const idPrefix = `twp-${Date.now()}-`;
   const stockPricePattern = /\[\[stockprice\]\]/g;
